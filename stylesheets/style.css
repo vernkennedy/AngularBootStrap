@@ -3,14 +3,6 @@
 	   .col-sm-12{background:white; text-align:center; margin-top:-1%; padding:1%; box-shadow: 0px 1px 5px #888888;}
 	   img{width:109.9%; height:230px; margin-left:-5%; margin-top:-2%; padding-bottom:5%;}	   
 	   #container{height:600px; width:100%; overflow-y:scroll;}  
-		/* Scrollbar */
-		::-webkit-scrollbar {width: 15px; background: #999990; cursor:pointer;}
-		/* Button */
-		::-webkit-scrollbar-button {width: 25px; height: 60px;}
-		/* Track */
-		::-webkit-scrollbar-track {-webkit-border-radius: 80px;	border-radius: 80px; background: white; }
-		 /* Handle */
-		::-webkit-scrollbar-thumb {-webkit-border-radius: 80px; background: rgba(0,0,0,1); box-shadow: 10px 10px 10px 888888; }
 		.carousel-inner > .item > img, .carousel-inner > .item > a > img {width: 70%; margin: auto;}
 		.carousel-indicators {display: none;}
 		.carousel-control.left,.carousel-control.right {background: transparent;}
@@ -19,6 +11,19 @@
 		.modal-content { position: relative; background-color: #fff; -webkit-background-clip: padding-box; background-clip: padding-box; border: 1px solid #999; background-color: #424242; border: 1px solid rgba(0,0,0,.2); border-radius: 6px; outline: 0; width: 200%; margin-left: -50%; -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5); box-shadow: 0 3px 9px rgba(0,0,0,.5); height:620px; overflow:hidden; verflow-y:scroll; }
 		.modal-title {margin: 0; line-height: 1.42857143; color: silver; text-align: center; }
 		.modal-header .close{margin-top: -8px; background-color: white; width: 50px; height: 40px; color: black;}
-		.trigger, .trigger:hover {padding: 10px 16px; font-size: 18px; line-height: 1.3333333; border-radius: 3px; position: fixed; border: none; background-color: #424242; color: silver; margin-top: 2%; margin-left: 35%; font-style: oblique; outline:none; width:60px; height:50px; }
 		.modal-header {min-height: 16.43px; padding: 15px; border-bottom: 1px solid #424242;}
         .modal-footer {display:none;}
+		.trigger{display:none;}
+		@media screen and (min-width: 1000px) {
+		.trigger, .trigger:hover {display:block; padding: 10px 16px; font-size: 18px; line-height: 1.3333333; border-radius: 3px; position: fixed; border: none; background-color: #424242; color: silver; margin-top: 2%; margin-left: 35%; font-style: oblique; outline:none; width:60px; height:50px; }
+		/* Scrollbar */
+		::-webkit-scrollbar {width: 15px; background: #999990; cursor:pointer;}
+		/* Button */
+		::-webkit-scrollbar-button {width: 25px; height: 60px;}
+		/* Track */
+		::-webkit-scrollbar-track {-webkit-border-radius: 80px;	border-radius: 80px; background: white; }
+		 /* Handle */
+		::-webkit-scrollbar-thumb {-webkit-border-radius: 80px; background: rgba(0,0,0,1); box-shadow: 10px 10px 10px 888888; }
+		   
+		
+		}
