@@ -1,7 +1,13 @@
 	   body{background:avender; background: E5E5E5; background:#454545; overflow:hidden; }
 	   .col-sm-3{background: white; text-align: center; margin: 4%; box-shadow: 0px px 5.5px #888888; }
 	   .col-sm-12{background:white; text-align:center; margin-top:-1%; padding:1%; box-shadow: 0px 1px 5px #888888;}
-	   img{width:109.9%; height:230px; margin-left:-5%; margin-top:-2%; padding-bottom:5%;}	   
+	  img {
+    width: 120%;
+    height: 230px;
+    margin-left: -10%;
+    margin-top: -2%;
+    padding-bottom: 5%;
+}
 	   #container{height:600px; width:100%; overflow-y:scroll;}  
 		.carousel-inner > .item > img, .carousel-inner > .item > a > img {width: 70%; margin: auto;}
 		.carousel-indicators {display: none;}
@@ -15,7 +21,7 @@
         .modal-footer {display:none;}
 		.trigger{display:none;}
 		@media screen and (min-width: 1000px) {
-		.trigger, .trigger:hover {display:block; padding: 10px 16px; font-size: 18px; line-height: 1.3333333; border-radius: 3px; position: fixed; border: none; background-color: #424242; color: silver; margin-top: 2%; margin-left: 35%; font-style: oblique; outline:none; width:60px; height:50px; }
+		.trigger, .trigger:hover {display:block; padding: 10px 16px; font-size: 18px; line-height: 1.3333333; border-radius: 3px; position: fixed; border: none; background-color: #424242; color: silver; margin-top: 2.3%; margin-left: 86.2%; font-style: oblique; outline:none;  height:50px; }
 		/* Scrollbar */
 		::-webkit-scrollbar {width: 15px; background: #999990; cursor:pointer;}
 		/* Button */
@@ -24,6 +30,7 @@
 		::-webkit-scrollbar-track {-webkit-border-radius: 80px;	border-radius: 80px; background: white; }
 		 /* Handle */
 		::-webkit-scrollbar-thumb {-webkit-border-radius: 80px; background: rgba(0,0,0,1); box-shadow: 10px 10px 10px 888888; }
+		 img{width:109.9%; height:230px; margin-left:-5%; margin-top:-2%; padding-bottom:5%;}
 		   
 		
 		}
